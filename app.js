@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(function(req, res, next) {
-    var allowedOrigins = ['https://apikcoindeposits.herokuapp.com/', 'http://127.0.0.1:3000'];
+    var allowedOrigins = ['https://apikcoindeposits.herokuapp.com', 'http://127.0.0.1:3000'];
     var origin = req.headers.origin;
     if(allowedOrigins.indexOf(origin) > -1){
         res.setHeader('Access-Control-Allow-Origin', origin);
@@ -32,7 +32,7 @@ app.use(function(req, res, next) {
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     res.header('Access-Control-Allow-Credentials', true);
 
-    return next(); 
+    return next();
 });
 app.use('/', index);
 app.use('/users', users);
