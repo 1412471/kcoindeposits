@@ -1,0 +1,19 @@
+#dashboard .container-fluid .left{
+    margin-top: 50px;
+}
+#dashboard .container-fluid .left a{
+    color: #009eec;
+}
+#dashboard .right{
+    margin-top: 60px;
+    color: white;
+}
+#dashboard .header{
+    display: inline-block;
+}
+#dashboard .signout{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+}

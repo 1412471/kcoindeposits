@@ -1,0 +1,22 @@
+
+.header{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+.signin{
+    margin-left: 30%;
+}
+.container{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.title{
+    font-size: 30px;
+}
+.status{
+    font-size: 10px;
+    color: red;
+}

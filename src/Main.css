@@ -1,0 +1,14 @@
+.getfreewallet {
+    text-align: center;
+    margin-top: 200px;
+}
+.main{
+    border: 1px solid white;
+    padding: 10px 10px 10px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+}
+.getfreewallet a:hover{
+    color: #234065;
+}
